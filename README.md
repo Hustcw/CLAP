@@ -1,8 +1,6 @@
-# CLAP: Learning Transferable Binary Code Representations with
-Natural Language Supervision
+# CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision
 
-This repository contains materials for the paper "CLAP: Learning Transferable Binary Code Representations with
-Natural Language Supervision", submitted for review. In this document, we provide an overview of the contents of this repository and instructions for accessing the materials.
+This repository contains materials for the paper "CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision", submitted for review. In this document, we provide an overview of the contents of this repository and instructions for accessing the materials.
 
 ## Contents
 
