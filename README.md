@@ -7,12 +7,14 @@ This repository contains materials for the paper "CLAP: Learning Transferable Bi
 1. **CaseStudy.ipynb**: A Jupyter Notebook showcasing the zero-shot performance of our proposed model using a case study. Please open this file to get an in-depth view of how our model works and the results it produces. This file also contains 
 the SHA-256 hash of the model we used to produce the results in the paper. This hash can be used to verify the integrity and reproducibility of our model. The hash is also provided in the Model_SHA256.txt file.
 
-1. **CaseStudy**: A folder containing IDB files and rebased assembly code for the case study used in the Jupyter Notebook. These files are used to generate the results in the Jupyter Notebook. We provide three different senarios for the case study,
+2. **CaseStudy**: A folder containing IDB files and rebased assembly code for the case study used in the Jupyter Notebook. These files are used to generate the results in the Jupyter Notebook. We provide three different senarios for the case study,
 including a bubble sort program, SHA-3 crypto algorithms and a real-world malware sample (which can be found at [virustotal](https://www.virustotal.com/gui/file/cd677242197cdc89d7b8e2e3056030fe2bb9b384c95a7a027a7eee8182b8426f/)). We conduct three zero-shot (without any further training) case studies, the results are shown in the Jupyter Notebook.
 
-1. **HumanEvaluationExamples**: A folder containing screenshots of human evaluations procedure performed while evaluating our data engine. These examples serve as supplementary evidence to support the claims made in the paper.
+3. **Prompts**: A folder containing prompts for explaining source code and zero-shot evaluation in crypto identification task and protocol categorization.
 
-2. **Model_SHA256.txt**: A text file containing the SHA256 hash of our model to ensure reproducibility.
+3. **HumanEvaluationExamples**: A folder containing screenshots of human evaluations procedure performed while evaluating our data engine. These examples serve as supplementary evidence to support the claims made in the paper.
+
+4. **Model_SHA256.txt**: A text file containing the SHA256 hash of our model to ensure reproducibility.
 
 ## Instructions
 

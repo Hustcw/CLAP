@@ -1,0 +1,1 @@
+This function is a function implements protocol {class_name}.
