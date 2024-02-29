@@ -1,13 +1,25 @@
+###### [About](#About) | [News](#News) | [QuickStart](#QuickStart) | [Details](#Details) | [Citation](#Citation)
+
 # CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision
 
-This repository contains materials for the paper "CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision".
+# Table of Contents
+- [About](#About)
+- [News](#News)
+- [QuickStart](#QuickStart)
+- [Details](#Details)
+- [Citation](#Citation)
+
+## About
+CLAP (Contrastive Language-Assembly Pre-training) is a framework that learns binary code representations through natural language supervision. By aligning binary code with natural language explanations, it improves analysis performance in few-shot and zero-shot scenarios. Utilizing a dataset engine capable of automatically generating 195 million pairs of code snippets and their descriptions, CLAP offers a method with exceptional transferability in the field of binary code analysis. Our goal is to provide an effective tool for researchers and practitioners in binary code analysis, with our models accessible on the Hugging Face Model Hub.
+
+<img width="832" alt="clap_model" src="./clap.png">
 
 ## News
 
 - [2024/2/29] CLAP is available on Hugging Face Model Hub ([clap-asm](https://huggingface.co/hustcw/clap-asm) and [clap-text](https://huggingface.co/hustcw/clap-text)).
 - [2024/2/28] CLAP is now on [ArXiv](https://arxiv.org/abs/2402.16928).
 
-## Quick Start
+## QuickStart
 
 This document will help you set up and start using the CLAP model for various tasks, including fine-grained classification of sorting algorithms, malware, and cryptographic algorithms without any further training.
 
@@ -77,7 +89,7 @@ for i, prompt in enumerate(prompts):
 
 Repeat the process for any other classification tasks you want, such as malware classification and cryptographic algorithm identification, by loading the respective datasets and defining the relevant natural language prompts.
 
-## Description of Other Materials
+## Details
 In this document, we provide an overview of the contents of this repository and instructions for accessing the materials.
 
 1. **CaseStudy.ipynb**: A Jupyter Notebook showcasing the zero-shot performance of our proposed model using a case study. Please open this file to get an in-depth view of how our model works and the results it produces.
@@ -89,7 +101,7 @@ including a bubble sort program, SHA-3 crypto algorithms and a real-world malwar
 
 3. **HumanEvaluationExamples**: A folder containing screenshots of human evaluations procedure performed while evaluating our data engine. These examples serve as supplementary evidence to support the claims made in the paper.
 
-## Instructions
+### Instructions
 
 To access the materials, please follow these steps:
 
@@ -104,3 +116,18 @@ To access the materials, please follow these steps:
    3. We provide IDB files and rebased assembly code for the case study in the **CaseStudy** folder. You can use IDA Pro to open the IDB files and view the assembly code. Or you can view the rebased assembly code in any text editor.
 
 Thank you for your interest in our work, and we hope these materials help you better understand our research and findings.
+
+## Citation
+If this work is helpful for your research, please consider citing our work.
+
+[CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision](https://arxiv.org/abs/2402.16928)
+```
+@misc{wang2024clap,
+      title={CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision}, 
+      author={Hao Wang and Zeyu Gao and Chao Zhang and Zihan Sha and Mingyang Sun and Yuchen Zhou and Wenyu Zhu and Wenju Sun and Han Qiu and Xi Xiao},
+      year={2024},
+      eprint={2402.16928},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+```
