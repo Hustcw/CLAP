@@ -1,13 +1,14 @@
-###### [About](#About) | [News](#News) | [QuickStart](#QuickStart) | [Details](#Details) | [Citation](#Citation)
+<h1 align="center">CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision</h1>
 
-# CLAP: Learning Transferable Binary Code Representations with Natural Language Supervision
-
-# Table of Contents
-- [About](#About)
-- [News](#News)
-- [QuickStart](#QuickStart)
-- [Details](#Details)
-- [Citation](#Citation)
+<h4 align="center">
+<p>
+<a href=#about>About</a> |
+<a href=#news>News</a> |
+<a href=#quickstart>QuickStart</a> |
+<a href=#details>Details</a> |
+<a href=#citation>Citation</a>
+<p>
+</h4>
 
 ## About
 CLAP (Contrastive Language-Assembly Pre-training) is a framework that learns binary code representations through natural language supervision. By aligning binary code with natural language explanations, it improves analysis performance in few-shot and zero-shot scenarios. Utilizing a dataset engine capable of automatically generating 195 million pairs of code snippets and their descriptions, CLAP offers a method with exceptional transferability in the field of binary code analysis. Our goal is to provide an effective tool for researchers and practitioners in binary code analysis, with our models accessible on the Hugging Face Model Hub.
