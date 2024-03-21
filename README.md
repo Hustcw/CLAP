@@ -12,7 +12,7 @@
 ## About
 CLAP (Contrastive Language-Assembly Pre-training) is a framework that learns binary code representations through natural language supervision. By aligning binary code with natural language explanations, it improves analysis performance in few-shot and zero-shot scenarios. Utilizing a dataset engine capable of automatically generating 195 million pairs of code snippets and their descriptions, CLAP offers a method with exceptional transferability in the field of binary code analysis. Our goal is to provide an effective tool for researchers and practitioners in binary code analysis, with our models accessible on the Hugging Face Model Hub.
 
-<img width="832" alt="clap_model" src="./clap.png">
+<img width="832" alt="clap_model" src="./doc/clap.png">
 
 ## News
 
@@ -116,6 +116,12 @@ To access the materials, please follow these steps:
    3. We provide IDB files and rebased assembly code for the case study in the **CaseStudy** folder. You can use IDA Pro to open the IDB files and view the assembly code. Or you can view the rebased assembly code in any text editor.
 
 Thank you for your interest in our work, and we hope these materials help you better understand our research and findings.
+
+## Processing Data
+We provide a example script to process the assembly code. The script is located at `scripts/process_asm.py`. You can use the script to process your own binaries.
+```bash
+/path/to/idat64 -c -A -Sscripts/process_asm.py -obinary.idb /path/to/binary
+```
 
 ## Citation
 If this work is helpful for your research, please consider citing our work.
