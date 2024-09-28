@@ -48,6 +48,7 @@ def get_assembly_by_ea(ea):
     return rebased_assembly
 
 if __name__ == '__main__':
+    idc.auto_wait()
     binary_abs_path = idc.get_input_file_path()
     output_path = binary_abs_path + '.json'
     function_list = idautils.Functions()
